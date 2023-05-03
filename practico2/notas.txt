@@ -1,0 +1,37 @@
+Productor/consumidor
+
+hay dos hilos en ejecucion tales que uno consume lo que produce el primero.
+la distancia maxima entre el productor y el consumidor es el tamaño del
+buffer.
+en una linea de tiempo el productor siempre va adelante del consumidor.
+si en algun momento el consumidor 'alcanza' al productor, tiene que esperar
+a que el productor produzca.
+
+	|______C______P_______|
+
+un gran ejemplo de este sistema de productor/consumidor es el pipe.
+ej. grep foo file.txt | wc -l
+mientras grep va filtrando foo, wc va contando la cantidad de lineas que va
+escupiendo grep por pantalla.
+
+---
+Implementacion (se borro)
+---
+
+
+Bugs comunes
+
+Atomicity-Violation Bugs
+Chequear una condicion sin un lock. Si dos hilos chequean la condicion
+se puede provocar un problema de concurrencia
+
+Order-Violation Bugs
+Se ejecuta un hilo antes que otro (cuando es necesario ejecutarlos en
+un orden especifico)
+
+Deadlock Bugs
+Hilo 1			Hilo 2
+lock(L1)		lock(L2)
+lock(L2)		lock(L1)
+
+

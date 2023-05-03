@@ -1,0 +1,1082 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Sep 19 14:59:09 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 12)
+PRECOMPILED = parser.o lexer.o
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# makefile (from 'Makefile', line 1)
+TARGET = mybash
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 3)
+CPPFLAGS = `pkg-config --cflags glib-2.0`
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/tomas/LabSis/bit_rep/so22lab1g02/principal
+# makefile
+SHELL = /bin/sh
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:45345
+# makefile (from 'Makefile', line 4)
+CFLAGS = -std=gnu11 -Wall -Wextra -Wbad-function-cast -Wstrict-prototypes -Wmissing-declarations -Wmissing-prototypes -Wno-unused-parameter -Werror -Werror=vla -g -pedantic
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from '.depend', line 1)
+MAKEFILE_LIST :=  Makefile .depend
+# makefile (from 'Makefile', line 15)
+ARCHDIR = objects-$(shell uname -m)
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = tomas
+# makefile (from 'Makefile', line 10)
+SOURCES = $(shell echo *.c)
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+_ = /usr/bin/code
+# environment
+MANAGERPID = 1362
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/tomas/LabSis/bit_rep/so22lab1g02/principal
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/tomas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/tomas-Aspire-A315-22:@/tmp/.ICE-unix/1594,unix/tomas-Aspire-A315-22:/tmp/.ICE-unix/1594
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 68f993d99a674f9ebeb1a9f1447ca8e4
+# makefile (from 'Makefile', line 5)
+LDFLAGS = `pkg-config --libs glib-2.0`
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+PWD = /home/tomas/LabSis/bit_rep/so22lab1g02/principal
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1551
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/tomas
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/tomas/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = tomas
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 2)
+CC = gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = tomas
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/tomas/LabSis/bit_rep/so22lab1g02
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = es_AR:es
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4e534ead-1.70.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/4139a2dd_124b_40b9_be1d_38e71aa422b3
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.88
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 11)
+OBJECTS = $(SOURCES:.c=.o)
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 3820
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=13/181=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 7341055): 21 files, no impossibilities.
+# objects-x86_64 (device 2050, inode 7341071): No files, no impossibilities so far.
+
+# 21 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+/usr/include/glib-2.0/glib/glib-autocleanups.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gmacros.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/ggettext.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+command.o: command.c command.h /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/glib-2.0/glib/garray.h /usr/include/glib-2.0/glib/gasyncqueue.h /usr/include/glib-2.0/glib/gthread.h /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/glib-2.0/glib/gbase64.h /usr/include/glib-2.0/glib/gbitlock.h /usr/include/glib-2.0/glib/gbookmarkfile.h /usr/include/glib-2.0/glib/gbytes.h /usr/include/glib-2.0/glib/gcharset.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/gconvert.h /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h /usr/include/glib-2.0/glib/gdatetime.h /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h /usr/include/glib-2.0/glib/genviron.h /usr/include/glib-2.0/glib/gfileutils.h /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/ghook.h /usr/include/glib-2.0/glib/ghostutils.h /usr/include/glib-2.0/glib/giochannel.h /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h /usr/include/glib-2.0/glib/gunicode.h /usr/include/glib-2.0/glib/gkeyfile.h /usr/include/glib-2.0/glib/gmappedfile.h /usr/include/glib-2.0/glib/gmarkup.h /usr/include/glib-2.0/glib/gmessages.h /usr/include/glib-2.0/glib/gvariant.h /usr/include/glib-2.0/glib/gvarianttype.h /usr/include/glib-2.0/glib/goption.h /usr/include/glib-2.0/glib/gpattern.h /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h /usr/include/glib-2.0/glib/grcbox.h /usr/include/glib-2.0/glib/grefcount.h /usr/include/glib-2.0/glib/grefstring.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gregex.h /usr/include/glib-2.0/glib/gscanner.h /usr/include/glib-2.0/glib/gsequence.h /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h /usr/include/glib-2.0/glib/gspawn.h /usr/include/glib-2.0/glib/gstrfuncs.h /usr/include/glib-2.0/glib/gstringchunk.h /usr/include/glib-2.0/glib/gtestutils.h /usr/include/glib-2.0/glib/gthreadpool.h /usr/include/glib-2.0/glib/gtimer.h /usr/include/glib-2.0/glib/gtrashstack.h /usr/include/glib-2.0/glib/gtree.h /usr/include/glib-2.0/glib/gurifuncs.h /usr/include/glib-2.0/glib/guuid.h /usr/include/glib-2.0/glib/gversion.h /usr/include/glib-2.0/glib/deprecated/gallocator.h /usr/include/glib-2.0/glib/deprecated/gcache.h /usr/include/glib-2.0/glib/deprecated/gcompletion.h /usr/include/glib-2.0/glib/deprecated/gmain.h /usr/include/glib-2.0/glib/deprecated/grel.h /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/glib-2.0/glib/glib-autocleanups.h strextra.h
+#  Implicit rule search has been done.
+#  File does not exist.
+ 
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gspawn.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/galloca.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+strextra.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gthread.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gqsort.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+test-parsing: command.o parsing.o parser.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	make -C tests test-parsing
+
+all: mybash
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+/usr/include/glib-2.0/glib/gquark.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mybash.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-18 19:15:25.503223214
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/grand.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/deprecated/gmain.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gtrashstack.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gthreadpool.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gvarianttype.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gmem.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+parsing.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-17 16:03:27.181496369
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gtimer.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/deprecated/gcache.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gslist.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+strextra.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/grcbox.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/grefcount.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gmessages.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gtimezone.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/ghash.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gversion.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+.depend: builtin.c command.c execute.c mybash.c parsing.c strextra.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-09-19 14:59:08.798779469
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 41):
+	$(CC) $(CPPFLAGS) -MM $^ > $@
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gdataset.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gerror.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/genviron.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gasyncqueue.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/deprecated/gcompletion.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+test: builtin.o command.o execute.o mybash.o parsing.o strextra.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	make -C tests test
+
+# Not a target:
+/usr/include/glib-2.0/glib/gconvert.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gbacktrace.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+parsing.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+builtin.o: builtin.c tests/syscall_mock.h command.h /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/glib-2.0/glib/garray.h /usr/include/glib-2.0/glib/gasyncqueue.h /usr/include/glib-2.0/glib/gthread.h /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/glib-2.0/glib/gbase64.h /usr/include/glib-2.0/glib/gbitlock.h /usr/include/glib-2.0/glib/gbookmarkfile.h /usr/include/glib-2.0/glib/gbytes.h /usr/include/glib-2.0/glib/gcharset.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/gconvert.h /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h /usr/include/glib-2.0/glib/gdatetime.h /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h /usr/include/glib-2.0/glib/genviron.h /usr/include/glib-2.0/glib/gfileutils.h /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/ghook.h /usr/include/glib-2.0/glib/ghostutils.h /usr/include/glib-2.0/glib/giochannel.h /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h /usr/include/glib-2.0/glib/gunicode.h /usr/include/glib-2.0/glib/gkeyfile.h /usr/include/glib-2.0/glib/gmappedfile.h /usr/include/glib-2.0/glib/gmarkup.h /usr/include/glib-2.0/glib/gmessages.h /usr/include/glib-2.0/glib/gvariant.h /usr/include/glib-2.0/glib/gvarianttype.h /usr/include/glib-2.0/glib/goption.h /usr/include/glib-2.0/glib/gpattern.h /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h /usr/include/glib-2.0/glib/grcbox.h /usr/include/glib-2.0/glib/grefcount.h /usr/include/glib-2.0/glib/grefstring.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gregex.h /usr/include/glib-2.0/glib/gscanner.h /usr/include/glib-2.0/glib/gsequence.h /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h /usr/include/glib-2.0/glib/gspawn.h /usr/include/glib-2.0/glib/gstrfuncs.h /usr/include/glib-2.0/glib/gstringchunk.h /usr/include/glib-2.0/glib/gtestutils.h /usr/include/glib-2.0/glib/gthreadpool.h /usr/include/glib-2.0/glib/gtimer.h /usr/include/glib-2.0/glib/gtrashstack.h /usr/include/glib-2.0/glib/gtree.h /usr/include/glib-2.0/glib/gurifuncs.h /usr/include/glib-2.0/glib/guuid.h /usr/include/glib-2.0/glib/gversion.h /usr/include/glib-2.0/glib/deprecated/gallocator.h /usr/include/glib-2.0/glib/deprecated/gcache.h /usr/include/glib-2.0/glib/deprecated/gcompletion.h /usr/include/glib-2.0/glib/deprecated/gmain.h /usr/include/glib-2.0/glib/deprecated/grel.h /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/glib-2.0/glib/glib-autocleanups.h builtin.h
+ 
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+command.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-17 16:03:27.177496302
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gstringchunk.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/glist.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/deprecated/grel.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+ 
+# Not a target:
+/usr/include/glib-2.0/glib/gfileutils.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+memtest: builtin.o command.o execute.o mybash.o parsing.o strextra.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	make -C tests memtest
+
+execute.o: execute.c tests/syscall_mock.h execute.h command.h /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/glib-2.0/glib/garray.h /usr/include/glib-2.0/glib/gasyncqueue.h /usr/include/glib-2.0/glib/gthread.h /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/glib-2.0/glib/gbase64.h /usr/include/glib-2.0/glib/gbitlock.h /usr/include/glib-2.0/glib/gbookmarkfile.h /usr/include/glib-2.0/glib/gbytes.h /usr/include/glib-2.0/glib/gcharset.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/gconvert.h /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h /usr/include/glib-2.0/glib/gdatetime.h /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h /usr/include/glib-2.0/glib/genviron.h /usr/include/glib-2.0/glib/gfileutils.h /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/ghook.h /usr/include/glib-2.0/glib/ghostutils.h /usr/include/glib-2.0/glib/giochannel.h /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h /usr/include/glib-2.0/glib/gunicode.h /usr/include/glib-2.0/glib/gkeyfile.h /usr/include/glib-2.0/glib/gmappedfile.h /usr/include/glib-2.0/glib/gmarkup.h /usr/include/glib-2.0/glib/gmessages.h /usr/include/glib-2.0/glib/gvariant.h /usr/include/glib-2.0/glib/gvarianttype.h /usr/include/glib-2.0/glib/goption.h /usr/include/glib-2.0/glib/gpattern.h /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h /usr/include/glib-2.0/glib/grcbox.h /usr/include/glib-2.0/glib/grefcount.h /usr/include/glib-2.0/glib/grefstring.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gregex.h /usr/include/glib-2.0/glib/gscanner.h /usr/include/glib-2.0/glib/gsequence.h /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h /usr/include/glib-2.0/glib/gspawn.h /usr/include/glib-2.0/glib/gstrfuncs.h /usr/include/glib-2.0/glib/gstringchunk.h /usr/include/glib-2.0/glib/gtestutils.h /usr/include/glib-2.0/glib/gthreadpool.h /usr/include/glib-2.0/glib/gtimer.h /usr/include/glib-2.0/glib/gtrashstack.h /usr/include/glib-2.0/glib/gtree.h /usr/include/glib-2.0/glib/gurifuncs.h /usr/include/glib-2.0/glib/guuid.h /usr/include/glib-2.0/glib/gversion.h /usr/include/glib-2.0/glib/deprecated/gallocator.h /usr/include/glib-2.0/glib/deprecated/gcache.h /usr/include/glib-2.0/glib/deprecated/gcompletion.h /usr/include/glib-2.0/glib/deprecated/gmain.h /usr/include/glib-2.0/glib/deprecated/grel.h /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/glib-2.0/glib/glib-autocleanups.h builtin.h
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gpattern.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tests/syscall_mock.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.165059225
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gbytes.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/ghostutils.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gmain.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gslice.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/ghmac.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gscanner.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gprimes.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gsequence.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+command.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/garray.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/ghook.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/giochannel.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gkeyfile.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+parser.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+ 
+test-command: command.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	make -C tests test-command
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gstring.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gurifuncs.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/goption.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gnode.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gtree.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/deprecated/gallocator.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gutils.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	rm -f $(TARGET) $(OBJECTS) .depend *~
+	make -C tests clean
+
+# Not a target:
+/usr/include/glib-2.0/glib/gunicode.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gbitlock.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+builtin.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-17 16:03:27.177496302
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gdatetime.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+strextra.o: strextra.c strextra.h
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gdate.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/deprecated/gthread.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gvariant.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gshell.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+mybash: builtin.o command.o execute.o mybash.o parsing.o strextra.o parser.o lexer.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := mybash
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := builtin.o command.o execute.o mybash.o parsing.o strextra.o parser.o lexer.o
+# automatic
+# | := 
+# automatic
+# < := builtin.o
+# automatic
+# ^ := builtin.o command.o execute.o mybash.o parsing.o strextra.o parser.o lexer.o
+# automatic
+# ? := builtin.o command.o execute.o mybash.o parsing.o strextra.o parser.o lexer.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  recipe to execute (from 'Makefile', line 22):
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+
+mybash.o: mybash.c command.h /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/glib-2.0/glib/garray.h /usr/include/glib-2.0/glib/gasyncqueue.h /usr/include/glib-2.0/glib/gthread.h /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/glib-2.0/glib/gbase64.h /usr/include/glib-2.0/glib/gbitlock.h /usr/include/glib-2.0/glib/gbookmarkfile.h /usr/include/glib-2.0/glib/gbytes.h /usr/include/glib-2.0/glib/gcharset.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/gconvert.h /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h /usr/include/glib-2.0/glib/gdatetime.h /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h /usr/include/glib-2.0/glib/genviron.h /usr/include/glib-2.0/glib/gfileutils.h /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/ghook.h /usr/include/glib-2.0/glib/ghostutils.h /usr/include/glib-2.0/glib/giochannel.h /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h /usr/include/glib-2.0/glib/gunicode.h /usr/include/glib-2.0/glib/gkeyfile.h /usr/include/glib-2.0/glib/gmappedfile.h /usr/include/glib-2.0/glib/gmarkup.h /usr/include/glib-2.0/glib/gmessages.h /usr/include/glib-2.0/glib/gvariant.h /usr/include/glib-2.0/glib/gvarianttype.h /usr/include/glib-2.0/glib/goption.h /usr/include/glib-2.0/glib/gpattern.h /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h /usr/include/glib-2.0/glib/grcbox.h /usr/include/glib-2.0/glib/grefcount.h /usr/include/glib-2.0/glib/grefstring.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gregex.h /usr/include/glib-2.0/glib/gscanner.h /usr/include/glib-2.0/glib/gsequence.h /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h /usr/include/glib-2.0/glib/gspawn.h /usr/include/glib-2.0/glib/gstrfuncs.h /usr/include/glib-2.0/glib/gstringchunk.h /usr/include/glib-2.0/glib/gtestutils.h /usr/include/glib-2.0/glib/gthreadpool.h /usr/include/glib-2.0/glib/gtimer.h /usr/include/glib-2.0/glib/gtrashstack.h /usr/include/glib-2.0/glib/gtree.h /usr/include/glib-2.0/glib/gurifuncs.h /usr/include/glib-2.0/glib/guuid.h /usr/include/glib-2.0/glib/gversion.h /usr/include/glib-2.0/glib/deprecated/gallocator.h /usr/include/glib-2.0/glib/deprecated/gcache.h /usr/include/glib-2.0/glib/deprecated/gcompletion.h /usr/include/glib-2.0/glib/deprecated/gmain.h /usr/include/glib-2.0/glib/deprecated/grel.h /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/glib-2.0/glib/glib-autocleanups.h execute.h parser.h parsing.h builtin.h
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gstrfuncs.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+execute.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-18 19:01:58.168930218
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/guuid.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gtypes.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gdir.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gchecksum.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gatomic.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+parser.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gmarkup.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gbookmarkfile.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gregex.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+parsing.o: parsing.c parsing.h command.h /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/glib-2.0/glib/garray.h /usr/include/glib-2.0/glib/gasyncqueue.h /usr/include/glib-2.0/glib/gthread.h /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/glib-2.0/glib/gbase64.h /usr/include/glib-2.0/glib/gbitlock.h /usr/include/glib-2.0/glib/gbookmarkfile.h /usr/include/glib-2.0/glib/gbytes.h /usr/include/glib-2.0/glib/gcharset.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/gconvert.h /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h /usr/include/glib-2.0/glib/gdatetime.h /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h /usr/include/glib-2.0/glib/genviron.h /usr/include/glib-2.0/glib/gfileutils.h /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h /usr/include/glib-2.0/glib/gchecksum.h /usr/include/glib-2.0/glib/ghook.h /usr/include/glib-2.0/glib/ghostutils.h /usr/include/glib-2.0/glib/giochannel.h /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h /usr/include/glib-2.0/glib/gunicode.h /usr/include/glib-2.0/glib/gkeyfile.h /usr/include/glib-2.0/glib/gmappedfile.h /usr/include/glib-2.0/glib/gmarkup.h /usr/include/glib-2.0/glib/gmessages.h /usr/include/glib-2.0/glib/gvariant.h /usr/include/glib-2.0/glib/gvarianttype.h /usr/include/glib-2.0/glib/goption.h /usr/include/glib-2.0/glib/gpattern.h /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h /usr/include/glib-2.0/glib/grcbox.h /usr/include/glib-2.0/glib/grefcount.h /usr/include/glib-2.0/glib/grefstring.h /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h /usr/include/glib-2.0/glib/gregex.h /usr/include/glib-2.0/glib/gscanner.h /usr/include/glib-2.0/glib/gsequence.h /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h /usr/include/glib-2.0/glib/gspawn.h /usr/include/glib-2.0/glib/gstrfuncs.h /usr/include/glib-2.0/glib/gstringchunk.h /usr/include/glib-2.0/glib/gtestutils.h /usr/include/glib-2.0/glib/gthreadpool.h /usr/include/glib-2.0/glib/gtimer.h /usr/include/glib-2.0/glib/gtrashstack.h /usr/include/glib-2.0/glib/gtree.h /usr/include/glib-2.0/glib/gurifuncs.h /usr/include/glib-2.0/glib/guuid.h /usr/include/glib-2.0/glib/gversion.h /usr/include/glib-2.0/glib/deprecated/gallocator.h /usr/include/glib-2.0/glib/deprecated/gcache.h /usr/include/glib-2.0/glib/deprecated/gcompletion.h /usr/include/glib-2.0/glib/deprecated/gmain.h /usr/include/glib-2.0/glib/deprecated/grel.h /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/glib-2.0/glib/glib-autocleanups.h parser.h
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+builtin.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-17 15:06:45.054090533
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/grefstring.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-12 11:56:16
+#  File has been updated.
+ 
+#  Successfully updated.
+
+# Not a target:
+lexer.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-12 18:15:24.161059242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gpoll.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gbase64.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gtestutils.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gmappedfile.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gversionmacros.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+execute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-17 15:06:45.058090625
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gcharset.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/glib-2.0/glib/gqueue.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-10-01 09:43:53
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=113/1024=11%, Rehash=0, Collisions=40/605=7%
+# VPATH Search Paths
+
+vpath parser.o objects-x86_64
+vpath lexer.o objects-x86_64
+
+# 2 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 120 / storage = 3473 B / avg = 28 B
+# current buf: size = 8162 B / used = 3473 B / count = 120 / avg = 28 B
+
+# strcache performance: lookups = 540 / hit rate = 77%
+# hash-table stats:
+# Load=120/8192=1%, Rehash=0, Collisions=1/540=0%
+# Finished Make data base on Mon Sep 19 14:59:09 2022
+
+ 

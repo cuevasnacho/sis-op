@@ -1,0 +1,16 @@
+# Respuestas
+
+## Primera Parte: Estudiando el planificador de xv6
+
+### Politica de planificacion
+
+Ya analizado el codigo, mas especificamente la funcion scheduler en proc.c, determinamos que
+la politica de planificacion utilizada es Round Robin debido a que toma el primer proceso
+en estado Ready y lo ejecuta durante un Quantum.
+
+### Quantum
+
+Un quantum dura ~0.1s en qemu. El quantum esta definido en timerinit en el archivo start.c con
+el nombre de variable interval.
+
+:
